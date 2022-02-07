@@ -44,5 +44,5 @@ This class doesn’t have many variables, it only has some Boolean variables ind
 * After every operation, we need to check the game status, if all cells are occupied and we cannot even merge any two cells i.e. the state where no movement can change the matrix, then the game is over.
 * If any cell value has reached 2048, then the player is won and a message box is flashed on the screen announcing the winner.
 * And every turn the output of the board prints on the console
-![Alt text](assets/201.png?raw=true "Game file")
+![Alt text](assets/201.PNG?raw=true "Game file")
 <br/>
