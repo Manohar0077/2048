@@ -1,4 +1,4 @@
-### Here I defined tWo Classes
+### Here I defined two Classes
 ## 1. Board:
 
   **Variables:**
