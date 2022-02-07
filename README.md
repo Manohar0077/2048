@@ -43,10 +43,12 @@ This class doesn’t have many variables, it only has some Boolean variables ind
 * Moving down is same as moving up but we need to reverse the matrix.
 * Similarly, right is same as moving left+reverse.
 * After every operation, we need to check the game status, if all cells are occupied and we cannot even merge any two cells i.e. the state where no movement can change the matrix, then the game is over.  
-<br/>
+<br/>  
+
 ![Alt text](assets/203.PNG?raw=true "Game over")
 * If any cell value has reached 2048, then the player is won and a message box is flashed on the screen announcing the winner.
 * And every turn the output of the board prints on the console  
 <br/>
+
 ![Alt text](assets/202.PNG?raw=true "consule output")
 <br/>
