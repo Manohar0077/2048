@@ -38,6 +38,7 @@ class Board:
         self.compress=False
         self.merge=False
         self.moved=False
+        self.score=0
         for i in range(4):
             rows=[]
             for j in range(4):
@@ -76,6 +77,7 @@ class Board:
                 if self.gridCell[i][j] == self.gridCell[i][j + 1] and self.gridCell[i][j] != 0:
                     self.gridCell[i][j] *= 2
                     self.gridCell[i][j + 1] = 0
+                    self.score += self.gridCell[i][j]
                     self.merge = True
     def random_cell(self):
         cells=[]
