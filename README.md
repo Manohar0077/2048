@@ -37,12 +37,14 @@ This class doesn’t have many variables, it only has some Boolean variables ind
 
 **Approach:**
 
+![Alt text](assets/201.PNG?raw=true "Game layout")
 * For left swipe, we will just compress and then merge the gridCell matrix and then if compress or merge is true (indicating the values of the matrix is affected by previous two functions), then we need to compress the grid again.
 * For moving up, we will take transpose then swipe left and again take transpose to return to the original order.
 * Moving down is same as moving up but we need to reverse the matrix.
 * Similarly, right is same as moving left+reverse.
-* After every operation, we need to check the game status, if all cells are occupied and we cannot even merge any two cells i.e. the state where no movement can change the matrix, then the game is over.
+* After every operation, we need to check the game status, if all cells are occupied and we cannot even merge any two cells i.e. the state where no movement can change the matrix, then the game is over.<br/>
+![Alt text](assets/203.PNG?raw=true "Game over")
 * If any cell value has reached 2048, then the player is won and a message box is flashed on the screen announcing the winner.
-* And every turn the output of the board prints on the console
-![Alt text](assets/201.PNG?raw=true "Game file")
+* And every turn the output of the board prints on the console<br/>
+![Alt text](assets/202.PNG?raw=true "consule output")
 <br/>
